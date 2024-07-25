@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* form { */
+    /* width: 20%;
+    height: 50%;
+    padding: 1%;
+    
+    background-color: #ccd6e0;
+    margin: 15rem auto;
+    border-radius: 1em;
+    /* display: flex; */
+    /* justify-content: space-evenly; */ 
+    .form_com {
+        max-width: 25%;
+        margin: 15rem auto;
+        padding: 1%;
+        background-color: #c2cad3;
+        border-radius: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+/* styles.css */
+
+
+
+/* .mySelectStyle {
+    margin: -30%;
+    max-width:150%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+} */
+
+/* .mySelectStyle:hover {
+  border-color: #999;
+}
+
+.mySelectStyle:focus {
+  outline: none;
+  border-color: #5b9dd9;
+} */
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+  width: 100%;
+  /* height: 100%; Consider uncommenting and adjusting if needed */
+  padding: 10px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: large;
+  box-sizing: border-box;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+/* header*/
+/* Navbar.css */
+
+.navbar {
+    background-color: #2c3e50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #34495e;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+footer 
+*/
+
+
+
+/* Footer.css */
+
+.footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-right: 1rem;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info {
+    margin-top: 1rem;
+}
+
+.footer-info p {
+    margin: 0.5rem 0;
+}
+
+
+
+
+/*certificate form design*/
+.con {
+    margin-top: 4%;
+    margin-left: 4%; /* Changed from margin to margin-left */
+    margin-right: 4%; /* Added margin-right */
+    margin-bottom: 0%;
+}
+table {
+    max-width: 90%;
+    background-color: none; /* Changed from none to transparent */
+    margin: 5% 0% 3% 20%; /* Corrected the margin value */
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+.tabledata {
+    margin: 4%;
+    margin-top: 2px;
+}
+th {
+    background-color: #f2f2f2;
+}
+  
+
+
+

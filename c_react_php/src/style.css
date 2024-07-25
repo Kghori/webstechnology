@@ -1,0 +1,38 @@
+*{
+    margin: 1%;
+    padding: 1%;
+    
+}
+.container{
+    align-items: center;
+  display: flex;
+  flex-direction: column;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    background-color: red;
+    margin: 10% 0% 15% 25%;
+gap: 25px;
+}
+
+.content{
+    display: flex;
+    ;
+
+}
+input[type="text"]{
+    padding: 2%;
+    border-radius: 1em;
+}
+input[type="password"]{
+    padding: 2%;
+    border-radius: 1em;
+}
+button{
+    padding: 2%;
+    height: 5%;
+    width: 25%;
+    background-color: chocolate;
+    border-radius: 1em;
+}

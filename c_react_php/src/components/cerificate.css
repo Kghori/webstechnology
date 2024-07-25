@@ -1,0 +1,42 @@
+/* certificate.css */
+.certificate {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #000000;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.certificate-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certificate-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.certificate-subtitle {
+    font-size: 18px;
+    color: #555555;
+}
+
+.certificate-content {
+    margin-bottom: 20px;
+}
+
+.certificate-content p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+.certificate-signature {
+    text-align: right;
+    font-size: 18px;
+    font-style: italic;
+    color: #444444;
+}
